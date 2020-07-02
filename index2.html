@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="styles2.css">	
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <style>
+
             .row > div {
                 padding: 15px;
                 background-color: #4096de;
@@ -19,25 +20,29 @@
         </style>
     </head>
     <body>
+        <!-- Update at the top of the page-->
     	<div class="alert alert-primary alert-dismissible fade show" role="alert">
-            <strong>Update:</strong> This is a relatively new website. Please be patient as we continue to work on it.
+            <strong>Update:</strong> This is a relatively new website. Please be patient as we continue to make updates.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
             </button>
         </div>
-        <img src="CRACK2.png" height="100">
+        <!-- Logo image -->
+        <a href="index2.html">
+            <img src="CRACK2.png" height="100">
+        </a>
         <p></p>
-        
+        <!-- Individual buttons-->
 		<div class="container">
             <div class="row">
+                <div class="col-lg-3 col-sm-6" onclick=window.location.href="sat.html">
+                    The SAT
+                </div>
                 <div class="col-lg-3 col-sm-6" onclick=window.location.href="EBRW.html">
                     EBRW
                 </div>
-                <div class="col-lg-3 col-sm-6" onclick=window.location.href="MNC.html">
-                    Math -No Calc
-                </div>
                 <div class="col-lg-3 col-sm-6" onclick=window.location.href="MC.html">
-                    Math -Calc
+                    Math
                 </div>
                 <div class="col-lg-3 col-sm-6" onclick=window.location.href="EW.html">
                     Essay writing
@@ -45,6 +50,16 @@
             </div>
         </div>
         <p></p>
-        <p>Welcome to the ultimate SAT guide that will help you through the hellish experience 8 million other students go through.</p>
+        <!-- Intro using main id selector -->
+        <div id='main'>
+            <p>Welcome to the ultimate SAT guide that will help you through the hellish experience 8 million other students go through.</p>
+            <p> This guide will:
+                <ul>
+                <li>break down each section of the SAT</li>
+                <li>tell you the necessary skills needed for each section</li>
+                <li>give you tips and tricks for the exam overall</li>
+                </ul>
+            </p>
+        </div>
     </body>
 </html>
